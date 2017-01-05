@@ -1,0 +1,6 @@
+*~
+*.tgz
+*.log
+
+lib/
+node_modules/

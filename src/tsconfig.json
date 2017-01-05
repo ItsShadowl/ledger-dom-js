@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "outDir": "../lib",
+        "sourceMap": true,
+        "declaration": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "index.ts",
+        "test/pipe-tests.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
